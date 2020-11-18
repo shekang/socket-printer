@@ -1,0 +1,26 @@
+{
+  "name": "print_service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "devJs": "parcel ./utils/printer.js",
+    "dev": "parcel ./test/index.html",
+    "build": "parcel build ./utils/printer.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "6.26.0",
+    "puppeteer": "2.0.0",
+    "qrcode": "1.4.4",
+    "socket.io-client": "2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.7.7",
+    "@babel/plugin-proposal-class-properties": "7.7.4",
+    "@babel/preset-env": "7.7.7",
+    "parcel-bundler": "1.12.4"
+  },
+  "keywords": [],
+  "description": ""
+}
